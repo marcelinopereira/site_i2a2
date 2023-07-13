@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brincadeira de Criança</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .header h1 {
+      font-size: 32px;
+    }
+    
+    .image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .login-form {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .login-form a {
+      display: block;
+      margin-top: 10px;
+      color: blue;
+    }
+    
+    /* Responsividade */
+    
+    @media screen and (min-width: 768px) {
+      .header h1 {
+        font-size: 48px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Brincadeira de Criança</h1>
+    </header>
+    
+    <div class="image">
+      <img src="sonhar-com-bola-de-gude.jpg" alt="Criança jogando bolinha de gude">
+    </div>
+    
+    <div class="login-form">
+      <h2>Login</h2>
+      
+      <form action="meusite_produtos.html">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" placeholder="Digite seu usuário"><br><br>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha"><br><br>
+        
+        <input type="submit" value="Entrar">
+        
+        <a href="meusite3.html">Esqueci minha senha</a>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
